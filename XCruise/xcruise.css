@@ -1,0 +1,11 @@
+.navbar{
+    background-color: rgb(0, 0, 51);
+    display: flex;
+    justify-content:space-between;
+}
+.hero{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/hero-cruise.png?raw=true");
+}
+button{
+    
+}
