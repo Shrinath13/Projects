@@ -1,11 +1,157 @@
 .navbar{
     background-color: rgb(0, 0, 51);
+    height: 200px;
+    width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+}
+img{
+    object-fit: cover;
+    height: 200px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu ul li{
+    margin: 10px;
 }
 .hero{
     background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/hero-cruise.png?raw=true");
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-button{
-    
+.weekend {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 3rem;
 }
+.weekend img {
+    border-radius: 50%;
+    height: 200%;
+}
+.summer {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 3rem;
+}
+.summer img {
+    border-radius: 50%;
+    height: 200%;
+}
+.exotic {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 3rem;
+}
+.exotic img {
+    border-radius: 50%;
+    height: 20px;
+    width:20px;
+}
+.popular{
+    display: flex;
+    align-items: center;
+}
+.pills{
+    display:flex;
+    margin: 10px;
+}
+.grids{
+    display: grid;
+  grid-template-rows: repeat(3, 16em);
+  grid-template-columns: repeat(4, 22rem);
+}
+.card{
+    cursor: pointer;
+}
+#carribean{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/caribbean-cruise.png?raw=true");
+    grid-column-start:1;
+  grid-column-end:5;
+}
+.card p {
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+#medi{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/mediterranean-cruise.png?raw=true");
+}
+#dubai{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/dubai-cruise.png?raw=true");
+}
+#europe{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/northern-europe-cruise.png?raw=true");
+}
+#sea{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/redsea-cruise.png?raw=true");
+}
+#bermuda{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/bermuda-beach-cruise.png?raw=true");
+}
+#africa{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/south-africa-cruise.png?raw=true");
+}
+#america{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/south-america-cruise.png?raw=true");
+}
+#asia{
+    background-image: url("https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/asia-cruise.png?raw=true");
+}
+#contact h3{
+text-align: center;
+}
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer_rights{
+    background-color: rgb(0, 0, 51);
+    color: aliceblue;
+    padding: 30px;
+}
+footer div li{
+ list-style: none;  
+color: #FFFFFF;
+}
+footer{
+    display: grid;
+    grid-template-rows: repeat(2, );
+  grid-template-columns: repeat(4, 23rem);
+  background-color: rgb(0, 0, 51);
+}
+.social-icons{
+    display: inline-flex;
+}
+.social-icons img{
+    height: 30px;
+    width: 30px;
+}
+#item-1 {
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+#item-2{
+    grid-row-start:1;
+    grid-row-end:3;
+  }
+  #item-3{
+    grid-row-start:1;
+    grid-row-end:3;
+  }
+ footer div h3 {
+    color:rgb(221, 159, 45);
+ }
+/* */
